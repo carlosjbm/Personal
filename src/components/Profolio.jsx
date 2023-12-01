@@ -55,7 +55,7 @@ function Profolio() {
         "Esta es una prube técnica para desarrolladores (juniors) donde pongo en práctica conocimientos como el fetching de datos, manejo del estado,el uso de Hooks y manipulación de strings.",
       enDecription:
         "This is a technical test for developers (juniors) where I put into practice knowledge such as data fetching, state management, the use of Hooks and string manipulation.",
-      link: "",
+      link: "https://github.com/carlosjbm/Prueba-Tecnica-junior-.git",
       tools: "React(useState, useEffect, useContext), API-Rest",
     },
     {
@@ -68,7 +68,7 @@ function Profolio() {
         "Este proyecto no es mas que la simulación de una UI para una PizzaShop online, donde pongo a prueba mis habilidades de maquetación y el desarrollo de una UI desde una maqueta hecha en Figma",
       enDecription:
         "This project is nothing more than the simulation of a UI for an online PizzaShop, where I test my layout skills and the development of a UI from a mockup made in Figma",
-      link: "",
+      link: "https://github.com/carlosjbm/Pizza-Shop.git",
       tools: "React(useState), Figma, Git, GitHub",
     },
     {
@@ -81,8 +81,8 @@ function Profolio() {
         "Durante la resolucion de esta prueba técnica utilicé conceptos de React como el manejo del estado, conección con una API, el uso del contexto para el manejo de un estado global.",
       enDecription:
         "During the resolution of this technical test I used React concepts such as state management, connection with an API, and the use of context to manage a global state.",
-      link: "",
-      tools: "React(useState, useContext, useEffect), React-Router-Dom, API",
+      link: "https://github.com/carlosjbm/Prueba-Tecnica-React-Developer.git",
+      tools: "React(useState, useContext, useEffect), API",
     },
   ];
 
