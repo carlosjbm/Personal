@@ -1,0 +1,68 @@
+.about {
+  width: auto;
+  background: #FBFBFB;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 277px;
+  flex-wrap: wrap;
+
+}
+
+.about__enf {
+  color: #445964;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  margin-bottom: 62px;
+}
+
+h1,
+h2 {
+  color: #263138;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.about__p {
+  width: 1032px;
+  color: #445964;
+  text-align: center;
+  font-variant-numeric: oldstyle-nums proportional-nums;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 24px 0 108px 0;
+}
+
+
+
+.about__hardskills {
+  width: 1032px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  margin-top: 62px;
+  margin-bottom: 62px;
+
+}
+
+.about__enf {
+  margin-bottom: 62px;
+}
+
+.about__img {
+  width: 106.391px;
+  height: 95.744px;
+  flex-shrink: 0;
+}
+
+.about__techs {
+  display: flex;
+  gap: 56px;
+  margin: 56px;
+}

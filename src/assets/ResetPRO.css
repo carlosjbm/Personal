@@ -1,0 +1,114 @@
+/* Problemas que resuelve este Reset */
+
+/* 
+Unificar el uso de Custom Properties. 
+Problemas de box-model mas generales. 
+Problemas con imagenes, videos, icones svg.
+Problemas con tipografias e imputs de formularios
+Unificar toda la tipografia de una web.
+*/
+
+/* Desfiniendo las Custom Properties */
+:root {
+
+  --primario: #181818;
+  --secundario: #f8f8f8;
+
+  /* Tipografias */
+  --primaria: Helvetica arial sans-serif;
+  --secundaria: Verdana;
+}
+
+/* Reseteando todos los margin y paddings de todas las etiquetas */
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+  vertical-align: baseline;
+}
+
+/* Evitando problemas con las imagenes */
+img,
+figure,
+iframe,
+video,
+picture {
+  max-width: 100%;
+  width: 100%;
+  display: block;
+}
+
+/* Reseteo para los Enlaces para que funcionen como cajas */
+a {
+  display: block;
+}
+
+/* pero si estan dentro de un parrafo que se comporten como en linea */
+p a {
+  display: inline-block;
+}
+
+/* Quitamos los puntos a las li */
+li {
+  list-style-type: none;
+}
+
+/* Configuramos anclas suaves */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Desactivamos todos los estilos por defecto de las etiquetas de tipo texto */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+span,
+strong,
+blockquote,
+i,
+b,
+u,
+em {
+  font-size: 1em;
+  font-weight: inherit;
+  font-style: inherit;
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Nivelamos problemas de etiqutes form y de tipo imput */
+form,
+button,
+textarea,
+input,
+select,
+label {
+  font-family: inherit;
+  font-weight: inherit;
+  hyphens: auto;
+  background-color: transparent;
+  display: block;
+  color: inherit;
+  /* appearance: none; */
+}
+
+/* Nivelando las Tablas */
+table,
+tr,
+td {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Evitando problemas con los svg */
+svg {
+  display: block;
+  fill: currentColor;
+  width: 100%;
+}
