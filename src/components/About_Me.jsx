@@ -5,7 +5,6 @@ import medio from "../assets/medio.svg";
 import bajo from "../assets/bajo.svg";
 import react from "../assets/react.svg";
 import html from "../assets/html.svg";
-import node from "../assets/node.svg";
 import css from "../assets/css.svg";
 import js from "../assets/js.svg";
 import { useContext } from "react";
@@ -73,7 +72,6 @@ function About() {
       <div className="about__techs">
         <img className="about__img" src={html} alt="html" />
         <img className="about__img" src={css} alt="css" />
-        <img className="about__img" src={node} alt="Node" />
         <img className="about__img" src={react} alt="React" />
         <img className="about__img" src={js} alt="js" />
       </div>
