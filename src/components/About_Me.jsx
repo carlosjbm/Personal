@@ -25,7 +25,7 @@ function About() {
             the University of Matanzas (Cuba), I love the world of development
             website and everything related to it. Although I have little
             experience job I am prepared to join a project where I can put all
-            my knowledge into practice.
+            my knowledge into practice and to continue learning.
           </p>
         ) : (
           <p>
@@ -33,7 +33,8 @@ function About() {
             la Universidad de Matanzas(Cuba), me encata el mundo del desarrollo
             web y todo lo que a este se refiere. Aunque tengo poca experiencia
             laboral estoy preparado para integrarme a un proyecto donde pueda
-            poner en práctica todos mis conocimientos.
+            poner en práctica todos mis conocimientos y seguir adquiriendo
+            nuevos.
           </p>
         )}
 

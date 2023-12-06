@@ -1,6 +1,5 @@
 import "./Footer.css";
 import comilla from "../assets/comilla.svg";
-
 import Social from "./Social";
 import { useContext } from "react";
 import { idiomContext } from "../context/idiomContext";
