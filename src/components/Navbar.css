@@ -1,3 +1,12 @@
+:root {
+  --grey-basic: #445964;
+  --grey-txt-hover: #78716c;
+  --platinun: #e6e6e6;
+  --cultured: #f8f8f8;
+  --snow: #fafafa;
+  --anti-flash: #f0f0f0;
+}
+
 .navbar {
   display: flex;
   margin: 0px 213px 30px 30px;
@@ -6,8 +15,10 @@
 
 .navbar__logo {
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 18.94px;
-  color: #445964;
+  color: var(--grey-basic);
   font-family: Roboto;
   font-size: 36px;
   font-style: normal;
@@ -29,14 +40,31 @@
   height: 23px;
   flex-shrink: 0;
   justify-content: space-between;
-  color: #445964;
+  color: var(--grey-basic);
   font-family: Roboto;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
 }
-
+.navbar__handle-idiom {
+  display: flex;
+  width: 200px;
+  background-color: var(--grey-basic);
+}
+.navbar__handle-idiom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: var(--grey-txt-hovers);
+  border: 1.5px solid var(--grey-basic);
+}
 .navbar__handle-idiom:hover {
-  color: green;
+  background-color: var(--platinun);
+  color: var(--grey-txt-hover);
+  border: 1.5px solid var(--grey-txt-hover);
+  transition: 300ms;
 }

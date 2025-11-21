@@ -1,5 +1,6 @@
 import "./Navbar.css";
 import logo from "../assets/logo.svg";
+import { ToggleOn } from "./icons/Icons";
 
 // eslint-disable-next-line react/prop-types
 function Navbar({ english, handleEnglish }) {
@@ -8,19 +9,20 @@ function Navbar({ english, handleEnglish }) {
       <div className="navbar__logo">
         <img className="navbar__imglogo" src={logo} alt="Logo" />
         <p>Carlos Borges</p>
+
         {english ? (
           <button
             className="navbar__handle-idiom"
             onClick={() => handleEnglish()}
           >
-            cambiar a Español
+            Español
           </button>
         ) : (
           <button
             className="navbar__handle-idiom"
             onClick={() => handleEnglish()}
           >
-            change to English
+            English
           </button>
         )}
       </div>
