@@ -7,10 +7,7 @@
   justify-content: center;
   color: #445964;
   text-align: center;
-  font-variant-numeric: oldstyle-nums proportional-nums;
   font-size: 24px;
-  font-style: normal;
-  font-weight: 500;
   line-height: normal;
   gap: 25px;
   margin: 106px auto 0; /* Centrar el margen horizontalmente */
@@ -21,17 +18,8 @@
 .footer__writter {
   color: #263138;
   text-align: center;
-  font-variant-numeric: oldstyle-nums proportional-nums;
   font-size: 36px;
-  font-style: normal;
   font-weight: 900;
-  line-height: normal;
-}
-
-.comilla {
-  width: 90px;
-  height: 90px;
-  flex-shrink: 0;
 }
 
 /* Ajustes para pantallas más grandes */

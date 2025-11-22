@@ -4,12 +4,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 40px 16px; /* Ajuste para móviles */
+  padding: 40px 16px;
 }
 
 .about__enf {
   color: #445964;
-  font-size: 32px; /* Tamaño base para móviles */
+  font-size: 32px;
   font-weight: 900;
   margin-bottom: 32px;
 }
@@ -23,10 +23,10 @@ h2 {
 
 .about__p {
   width: 100%;
-  max-width: 800px; /* Limitar el ancho en pantallas grandes */
+  max-width: 800px;
   color: #445964;
   text-align: center;
-  font-size: 18px; /* Tamaño base para móviles */
+  font-size: 18px;
   font-weight: 500;
   margin: 24px 0 48px 0;
 }
@@ -35,7 +35,7 @@ h2 {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  gap: 20px; /* Espaciado más pequeño para móviles */
+  gap: 20px;
   margin: 32px 0;
 }
 
@@ -54,23 +54,14 @@ h2 {
 /* Ajustes para pantallas más grandes */
 @media (min-width: 768px) {
   .about {
-    padding: 60px 40px; /* Más espacio en pantallas grandes */
+    padding: 60px 40px;
   }
 
   .about__enf {
-    font-size: 64px; /* Tamaño para pantallas grandes */
-  }
-
-  h1,
-  h2 {
-    font-size: 64px; /* Tamaño para pantallas grandes */
+    font-size: 64px;
   }
 
   .about__p {
-    font-size: 24px; /* Tamaño para pantallas grandes */
-  }
-
-  .about__hardskills {
-    max-width: 1032px; /* Ancho máximo en pantallas grandes */
+    font-size: 24px;
   }
 }

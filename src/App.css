@@ -1,6 +1,26 @@
-@media (min-width: 768px) {
-  .app {
-    display: flex;
-    flex-direction: column;
-  }
+:root {
+  /*Tonos de negros*/
+  --deep-void: #0a0a0a;
+  --rich-black: #121212;
+  --eirie-black: #1a1a1a;
+  --jet-black-text: #2b2b2b;
+  --graphite-bordes: #3d3d3d;
+  /*Tonos de grises*/
+  --grey-basic: #445964;
+  --grey-txt-secundary: #78716c;
+  /*Tonos de Blancos*/
+  --bg-white: #fbfbfb;
+  --platinun: #e6e6e6;
+  --cultured: #f8f8f8;
+  --snow: #fafafa;
+  --anti-flash: #f0f0f0;
+  /*Azules*/
+  --blue-to-link: #007ada;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
