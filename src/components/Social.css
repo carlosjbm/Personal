@@ -1,16 +1,15 @@
 .social {
   display: flex;
-  gap: 25px;
+  width: 40%;
+  align-items: center;
+  justify-content: center;
+  border: 1.5px, solid, var(--grey-basic);
+  padding: 10px;
+  border-radius: 20px;
 }
 
 .social-icon {
   width: 40px;
   height: 38px;
   flex-shrink: 0;
-}
-
-.social-icon:hover {
-  border: solid 1px green;
-  transition: 20ms;
-  border-radius: 10px;
 }

@@ -10,7 +10,7 @@
   font-size: 24px;
   line-height: normal;
   gap: 25px;
-  margin: 106px auto 0; /* Centrar el margen horizontalmente */
+  /* margin: 106px auto 0; Centrar el margen horizontalmente */
   padding: 70px 20px 40px;
   background-color: #d9d9d9;
 }
@@ -20,6 +20,9 @@
   text-align: center;
   font-size: 36px;
   font-weight: 900;
+}
+.comilla {
+  width: 50px;
 }
 
 /* Ajustes para pantallas más grandes */

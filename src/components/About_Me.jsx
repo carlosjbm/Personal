@@ -40,41 +40,18 @@ function About() {
 
         <div className="about__form"></div>
       </div>
-      {english ? (
-        <h2>
-          <span className="about__enf">Hard</span> Skills
-        </h2>
-      ) : (
-        <h2>
-          <span className="about__enf">Habilidades</span> Fuertes
-        </h2>
-      )}
+      {english ? <h2>Skills</h2> : <h2>Habilidades</h2>}
 
       <div className="about__hardskills">
         <Level name="HTML" img={alto} />
         <Level name="CSS" img={alto} />
         <Level name="JavaScript" img={alto} />
+        <Level name="Git" img={alto} />
         <Level name="React.js" img={alto} />
+        <Level name="Next.js" img={alto} />
         <Level name="Sql" img={bajo} />
         <Level name="PHP" img={bajo} />
         <Level name="C#" img={bajo} />
-        <Level name="Vue.js" img={bajo} />
-        <Level name="Svelte" img={medio} />
-      </div>
-      {english ? (
-        <h2>
-          <span className="about__enf">Some Mastered </span> Technologies
-        </h2>
-      ) : (
-        <h2>
-          <span className="about__enf">Agunas Tecnologías</span> Dominadas
-        </h2>
-      )}
-      <div className="about__techs">
-        <img className="about__img" src={html} alt="html" />
-        <img className="about__img" src={css} alt="css" />
-        <img className="about__img" src={react} alt="React" />
-        <img className="about__img" src={js} alt="js" />
       </div>
     </div>
   );

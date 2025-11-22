@@ -16,19 +16,24 @@ function Home() {
     <div className="home">
       <div className="home__hero">
         <div className="home__contact">
-          <button className="home__button" onClick={handleEnglish}>
-            {english ? (
-              <div className="toggle-idiom">
-                Spanish
-                <ToggleOn />
-              </div>
-            ) : (
-              <div className="toggle-idiom">
-                <ToggleOf />
-                Inglés
-              </div>
-            )}
-          </button>
+          <div className="button-container">
+            <button className="home__button" onClick={handleEnglish}>
+              {english ? (
+                <div className="toggle-idiom">
+                  Español
+                  <ToggleOn />
+                  English
+                </div>
+              ) : (
+                <div className="toggle-idiom">
+                  Español
+                  <ToggleOf />
+                  English
+                </div>
+              )}
+            </button>
+          </div>
+
           <div className="home__img">
             <img src={home_art1} alt="Home Image" />
           </div>
