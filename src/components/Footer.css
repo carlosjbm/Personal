@@ -1,5 +1,6 @@
 .footer__fact {
-  width: 610px;
+  width: 100%; /* Cambiar a 100% para responsividad */
+  max-width: 610px; /* Mantener el ancho máximo */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -12,10 +13,9 @@
   font-weight: 500;
   line-height: normal;
   gap: 25px;
-  margin-top: 106px;
-  margin: 106px 400px 0;
+  margin: 106px auto 0; /* Centrar el margen horizontalmente */
   padding: 70px 20px 40px;
-  background-color: #D9D9D9;
+  background-color: #d9d9d9;
 }
 
 .footer__writter {
@@ -32,4 +32,15 @@
   width: 90px;
   height: 90px;
   flex-shrink: 0;
+}
+
+/* Ajustes para pantallas más grandes */
+@media (min-width: 768px) {
+  .footer__fact {
+    margin: 106px 400px 0; /* Mantener márgenes en pantallas grandes */
+  }
+
+  .footer__writter {
+    font-size: 48px; /* Aumentar tamaño de fuente en pantallas grandes */
+  }
 }

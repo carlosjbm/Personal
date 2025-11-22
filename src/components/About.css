@@ -1,68 +1,76 @@
 .about {
-  width: auto;
-  background: #FBFBFB;
+  width: 100%;
+  background: #fbfbfb;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 277px;
-  flex-wrap: wrap;
-
+  padding: 40px 16px; /* Ajuste para móviles */
 }
 
 .about__enf {
   color: #445964;
-  font-size: 64px;
-  font-style: normal;
+  font-size: 32px; /* Tamaño base para móviles */
   font-weight: 900;
-  line-height: normal;
-  margin-bottom: 62px;
+  margin-bottom: 32px;
 }
 
 h1,
 h2 {
   color: #263138;
-  font-size: 64px;
-  font-style: normal;
+  font-size: 32px; /* Tamaño base para móviles */
   font-weight: 900;
-  line-height: normal;
 }
 
 .about__p {
-  width: 1032px;
+  width: 100%;
+  max-width: 800px; /* Limitar el ancho en pantallas grandes */
   color: #445964;
   text-align: center;
-  font-variant-numeric: oldstyle-nums proportional-nums;
-  font-size: 24px;
-  font-style: normal;
+  font-size: 18px; /* Tamaño base para móviles */
   font-weight: 500;
-  line-height: normal;
-  margin: 24px 0 108px 0;
+  margin: 24px 0 48px 0;
 }
-
-
 
 .about__hardskills {
-  width: 1032px;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
-  gap: 50px;
-  margin-top: 62px;
-  margin-bottom: 62px;
-
-}
-
-.about__enf {
-  margin-bottom: 62px;
+  gap: 20px; /* Espaciado más pequeño para móviles */
+  margin: 32px 0;
 }
 
 .about__img {
-  width: 106.391px;
-  height: 95.744px;
+  width: 100px; /* Ajustar tamaño */
+  height: auto; /* Mantener proporciones */
   flex-shrink: 0;
 }
 
 .about__techs {
   display: flex;
-  gap: 56px;
-  margin: 56px;
+  gap: 20px; /* Espaciado más pequeño para móviles */
+  margin: 32px 0;
+}
+
+/* Ajustes para pantallas más grandes */
+@media (min-width: 768px) {
+  .about {
+    padding: 60px 40px; /* Más espacio en pantallas grandes */
+  }
+
+  .about__enf {
+    font-size: 64px; /* Tamaño para pantallas grandes */
+  }
+
+  h1,
+  h2 {
+    font-size: 64px; /* Tamaño para pantallas grandes */
+  }
+
+  .about__p {
+    font-size: 24px; /* Tamaño para pantallas grandes */
+  }
+
+  .about__hardskills {
+    max-width: 1032px; /* Ancho máximo en pantallas grandes */
+  }
 }

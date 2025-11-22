@@ -1,4 +1,4 @@
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   .app {
     display: flex;
     flex-direction: column;
