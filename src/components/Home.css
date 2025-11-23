@@ -15,7 +15,7 @@
   flex-direction: column;
   gap: 24px;
   width: 100%;
-  max-width: 1200px;
+  max-width: auto;
   align-items: center;
 }
 
@@ -24,7 +24,7 @@
   flex-direction: column;
   gap: 20px;
   width: 100%;
-  max-width: 640px;
+  max-width: auto;
   align-items: flex-start;
 }
 

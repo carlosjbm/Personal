@@ -18,43 +18,44 @@ function About() {
       </h1>
       <div className="about__p">
         {english ? (
-          <p>
-            My name is Carlos Borges, I have a degree in Computer Engineering in
-            the University of Matanzas (Cuba), I love the world of development
-            website and everything related to it. Although I have little
-            experience job I am prepared to join a project where I can put all
-            my knowledge into practice and to continue learning.
-            <span>
-              <a
-                className="dowload-btn"
-                href={cvEn}
-                download
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                download my CV
-              </a>
-            </span>
-          </p>
+          <div className="about__dwl">
+            <p style={{ padding: "0px 15px" }}>
+              My name is Carlos Borges, I have a degree in Computer Engineering
+              in the University of Matanzas (Cuba), I love the world of
+              development website and everything related to it. Although I have
+              little experience job I am prepared to join a project where I can
+              put all my knowledge into practice.
+            </p>
+            <a
+              className="dowload-btn"
+              href={cvEn}
+              download
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              download my CV
+            </a>
+          </div>
         ) : (
-          <p>
-            Mi nombre es Carlos Borges soy garduado de Ingeniería Informática en
-            la Universidad de Matanzas(Cuba), me encata el mundo del desarrollo
-            web y todo lo que a este se refiere. Aunque tengo poca experiencia
-            laboral estoy preparado para integrarme a un proyecto donde pueda
-            poner en práctica todos mis conocimientos y seguir mejorando.
-            <span>
-              <a
-                className="dowload-btn"
-                href={cv}
-                download
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                descarga mi CV
-              </a>
-            </span>
-          </p>
+          <div className="about__dwl">
+            <p style={{ padding: "0px 15px" }}>
+              Mi nombre es Carlos Borges soy garduado de Ingeniería Informática
+              en la Universidad de Matanzas(Cuba), me encata el mundo del
+              desarrollo web y todo lo que a este se refiere. Aunque tengo poca
+              experiencia laboral estoy preparado para integrarme a un proyecto
+              donde pueda poner en práctica todos mis conocimientos
+            </p>
+
+            <a
+              className="dowload-btn"
+              href={cv}
+              download
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              descarga mi CV
+            </a>
+          </div>
         )}
       </div>
       {english ? <h2>Skills</h2> : <h2>Habilidades</h2>}

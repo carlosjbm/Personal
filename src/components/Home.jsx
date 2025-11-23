@@ -17,13 +17,11 @@ function Home() {
             <button className="home__button" onClick={handleEnglish}>
               {english ? (
                 <div className="toggle-idiom">
-                  Español
                   <ToggleOn />
-                  English
+                  <span style={{ color: "var(--blue-to-link)" }}>English</span>
                 </div>
               ) : (
                 <div className="toggle-idiom">
-                  Español
                   <ToggleOf />
                   English
                 </div>
@@ -47,12 +45,13 @@ function Home() {
                   Welcome to my personal portfolio, this portfolio is only a
                   summary, if you want to know more details you can{" "}
                   <a
+                    className="text-link"
                     href={cvEn}
                     download
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <p className="text-link">download my CV</p>
+                    download my CV
                   </a>
                 </p>
               ) : (
@@ -60,12 +59,13 @@ function Home() {
                   Sea bienvenid@ a mi portafolio personal, este portafolio solo
                   es un resumen, si quiere saber más detalles puede{" "}
                   <a
+                    className="text-link"
                     href={cv}
                     download
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <p className="text-link">descargar mi CV</p>
+                    descargar mi CV
                   </a>
                 </p>
               )}
@@ -73,7 +73,6 @@ function Home() {
           </div>
         </div>
       </div>
-      <div></div>
     </div>
   );
 }

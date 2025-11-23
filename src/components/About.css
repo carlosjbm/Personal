@@ -62,9 +62,14 @@ h2 {
   color: var(--bg-white);
   font-style: oblique;
 }
-
+.about__dwl {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 /* Ajustes para pantallas más grandes */
-@media (min-width: 768px) {
+@media (min-width: 780px) {
   .about {
     padding: 60px 40px;
   }

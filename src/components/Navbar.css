@@ -1,4 +1,5 @@
 .navbar {
+  width: 100%;
   display: flex;
   margin: 0px 213px 30px 30px;
   align-items: center;
@@ -15,8 +16,6 @@
   font-style: normal;
   font-weight: 900;
   line-height: normal;
-  margin-right: 207px;
-  margin-top: 50px;
 }
 
 .navbar__imglogo {
