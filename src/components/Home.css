@@ -86,4 +86,15 @@
   .home__button {
     font-size: 24px;
   }
+  .hero {
+    display: flex;
+    width: 80%;
+    align-content: center;
+    justify-content: center;
+    padding: 0px 10%;
+    margin-left: 150px;
+  }
+  .home__img {
+    width: 80%;
+  }
 }

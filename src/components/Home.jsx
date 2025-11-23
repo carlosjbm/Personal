@@ -28,47 +28,48 @@ function Home() {
               )}
             </button>
           </div>
-
-          <div className="home__img">
-            <img src={home_art1} alt="Home Image" />
-          </div>
-          <div className="home__text">
-            <div className="home__text-container">
-              {english ? <p>Hi, how are things</p> : <p>Hola, que tal </p>}
-              {english ? (
-                <p className="home__text--main">I AM A WEB DEVELOPER</p>
-              ) : (
-                <p className="home__text--main">SOY DESARROLLADOR WEB</p>
-              )}
-              {english ? (
-                <p>
-                  Welcome to my personal portfolio, this portfolio is only a
-                  summary, if you want to know more details you can{" "}
-                  <a
-                    className="text-link"
-                    href={cvEn}
-                    download
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    download my CV
-                  </a>
-                </p>
-              ) : (
-                <p>
-                  Sea bienvenid@ a mi portafolio personal, este portafolio solo
-                  es un resumen, si quiere saber más detalles puede{" "}
-                  <a
-                    className="text-link"
-                    href={cv}
-                    download
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    descargar mi CV
-                  </a>
-                </p>
-              )}
+          <div className="hero">
+            <div className="home__img">
+              <img src={home_art1} alt="Home Image" />
+            </div>
+            <div className="home__text">
+              <div className="home__text-container">
+                {english ? <p>Hi, how are things</p> : <p>Hola, que tal </p>}
+                {english ? (
+                  <p className="home__text--main">I AM A WEB DEVELOPER</p>
+                ) : (
+                  <p className="home__text--main">SOY DESARROLLADOR WEB</p>
+                )}
+                {english ? (
+                  <p>
+                    Welcome to my personal portfolio, this portfolio is only a
+                    summary, if you want to know more details you can{" "}
+                    <a
+                      className="text-link"
+                      href={cvEn}
+                      download
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      download my CV
+                    </a>
+                  </p>
+                ) : (
+                  <p>
+                    Sea bienvenid@ a mi portafolio personal, este portafolio
+                    solo es un resumen, si quiere saber más detalles puede{" "}
+                    <a
+                      className="text-link"
+                      href={cv}
+                      download
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      descargar mi CV
+                    </a>
+                  </p>
+                )}
+              </div>
             </div>
           </div>
         </div>
