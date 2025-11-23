@@ -2,7 +2,7 @@ import "./Profolio.css";
 // import projects from "../assets/projects.js";
 import github from "../assets/github.svg";
 import { useContext, useState } from "react";
-import { idiomContext } from "../context/idiomContext";
+import { idiomContext } from "../../context/idiomContext";
 
 function Profolio() {
   const projects = [

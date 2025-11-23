@@ -1,7 +1,5 @@
 import "./Social.css";
 import github from "../assets/github.svg";
-import linkedin from "../assets/linkedin.svg";
-// import ig from "../assets/ig.svg";
 
 function Social() {
   return (

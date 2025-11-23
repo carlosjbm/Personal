@@ -1,13 +1,10 @@
-import Navbar from "./Navbar";
 import "./Home.css";
-
 import home_art1 from "../assets/home_art 1.svg";
 import cv from "../assets/Carlos Borges Milian.pdf";
 import cvEn from "../assets/Carlos Borges-CV(en).pdf";
-import Social from "./Social";
 import { useContext } from "react";
 import { idiomContext } from "../context/idiomContext";
-import { ToggleOf, ToggleOn } from "../assets/socialIcons";
+import { ToggleOf, ToggleOn } from "./socialIcons";
 
 function Home() {
   const { english, handleEnglish } = useContext(idiomContext);
